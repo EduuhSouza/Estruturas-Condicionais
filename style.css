@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fonte1;
+    src: url(fonte/Homer_Simpson_Revised.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* background-color: #D9BE10; */
+background-image: url(https://wallpapercave.com/wp/wp2735821.jpg);
+/* background-attachment: fixed; */
+background-size: cover;
+}
+
+h1{
+    font-family: fonte1;
+    font-size: 3em;
+    color: rgb(247, 168, 0);
+}
+
+
+p{
+    font-family: fonte1;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+
+
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+button{
+    box-shadow: 3px 3px 1px rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fdfdfd;
+    background-color: rgb(247, 168, 0);
+    /* border-radius: 10px; */
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+button:hover{
+    filter:opacity(30%);
+}
+
+.imagem img{
+    margin-top: 2em;
+    border-radius: 2em;
+    box-shadow: 2px 2px 20px 10px white;
+}
+
+h2{
+    font-family: fonte1;
+    color: #ffffff;
+    
+}
+footer{
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-family: fonte1;
+    color: #ffffff;
+}
+
+
+@media all and (max-width: 820px) {
+
+    .imagem img{
+        width: 100%;
+}
+
+}

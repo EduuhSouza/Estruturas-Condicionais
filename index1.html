@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2021/05/03/14/30/simpsons-6226380_960_720.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estruturas Condicionais </title>
+</head>
+<body>
+
+    <div class="formulario">
+        <h1> Verificação de Idade </h1>
+        <p> Por favor, insira sua idade
+            para mais informações: </p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="VerificarIdade()"> Verificar </button>
+    </div>
+
+
+    <script> 
+        function VerificarIdade(){
+            var idade = parseInt(document.getElementById("idadeInput").value);
+
+            if (idade>=18) {
+                window.location.href = 'maior.html';
+            } else {
+                window.location.href = 'menor.html'
+            }
+
+        }
+    </script>
+
+    <div class="imagem">
+        <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C4792CB79D15E3D0966A865E9355C7F91C68C740FFF4883C818BFB51EE4B8C9C/scale?width=440&aspectRatio=1.78&format=webp" alt="">
+    </div>
+
+
+
+ <h2> Verifica ai primeiro pow</h2>
+<footer> Desenvolvido por Eduarda Souza | Programação Web IOS</footer>
+
+    
+</body>
+</html>
